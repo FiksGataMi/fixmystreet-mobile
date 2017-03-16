@@ -8,7 +8,7 @@ var CONFIG = {
     // URL of the fixmystreet install to report to. See also config.xml-example
     // Make sure it does *not* end with a slash.
     // FMS_URL: 'https://cuidomiciudad.fixmystreet.dev.mysociety.org',
-    FMS_URL: 'https://cuidomiciudad.mysociety.org',
+    FMS_URL: 'https://www.cuidomiciudad.do',
 
     // Name of the cobrand to use for templates, stylesheets etc.
     // Cobrand files should be placed in a new directory within www/cobrands/
@@ -32,7 +32,7 @@ var CONFIG = {
     UPLOAD_TIMEOUT: 120000,
 
     // Set to 1 to log debug messages to the console
-    DEBUG: 1,
+    DEBUG: 0,
 
     // Bing Maps API key if needed
     BING_MAPS_API_KEY: ''

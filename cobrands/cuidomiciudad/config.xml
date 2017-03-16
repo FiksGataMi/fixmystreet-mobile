@@ -28,6 +28,8 @@
     <!-- Replace this with the hostname of your FMS installation -->
     <access origin="https://cuidomiciudad.fixmystreet.dev.mysociety.org" />
     <access origin="https://cuidomiciudad.mysociety.org" />
+    <access origin="https://www.cuidomiciudad.com" />
+    <access origin="https://www.cuidomiciudad.do" />
 
     <preference name="android-minSdkVersion" value="16" />
     <preference name="orientation" value="portrait" />
@@ -56,38 +58,39 @@
     <platform name="ios">
         <!-- iOS 8.0+ -->
         <!-- iPhone 6 Plus  -->
-        <icon src="res/ios/icons/Icon-60@3x.png" width="180" height="180" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-60@3x.png" width="180" height="180" />
         <!-- iOS 7.0+ -->
         <!-- iPhone / iPod Touch  -->
-        <icon src="res/ios/icons/Icon-60.png" width="60" height="60" />
-        <icon src="res/ios/icons/Icon-60@2x.png" width="120" height="120" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-60@2x.png" width="120" height="120" />
         <!-- iPad -->
-        <icon src="res/ios/icons/Icon-76.png" width="76" height="76" />
-        <icon src="res/ios/icons/Icon-76@2x.png" width="152" height="152" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-76.png" width="76" height="76" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-76@2x.png" width="152" height="152" />
         <!-- iOS 6.1 -->
         <!-- Spotlight Icon -->
-        <icon src="res/ios/icons/Icon-40.png" width="40" height="40" />
-        <icon src="res/ios/icons/Icon-40@2x.png" width="80" height="80" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-Small-40.png" width="40" height="40" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-Small-40@2x.png" width="80" height="80" />
         <!-- iPhone / iPod Touch -->
-        <icon src="res/ios/icons/Icon.png" width="57" height="57" />
-        <icon src="res/ios/icons/Icon@2x.png" width="114" height="114" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon.png" width="57" height="57" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon@2x.png" width="114" height="114" />
         <!-- iPad -->
-        <icon src="res/ios/icons/Icon-72.png" width="72" height="72" />
-        <icon src="res/ios/icons/Icon-72@2x.png" width="144" height="144" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-72.png" width="72" height="72" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-72@2x.png" width="144" height="144" />
         <!-- iPhone Spotlight and Settings Icon -->
-        <icon src="res/ios/icons/Icon-Small.png" width="29" height="29" />
-        <icon src="res/ios/icons/Icon-Small@2x.png" width="58" height="58" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-Small.png" width="29" height="29" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-Small@2x.png" width="58" height="58" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-Small@3x.png" width="87" height="87" />
         <!-- iPad Spotlight and Settings Icon -->
-        <icon src="res/ios/icons/Icon-50.png" width="50" height="50" />
-        <icon src="res/ios/icons/Icon-50@2x.png" width="100" height="100" />
-        <splash src="res/ios/splash/Default~iphone.png" width="320" height="480"/>
-        <splash src="res/ios/splash/Default@2x~iphone_640x960.png" width="640" height="960"/>
-        <splash src="res/ios/splash/Default-Portrait~ipad_768x1024.png" width="768" height="1024"/>
-        <splash src="res/ios/splash/Default-Portrait@2x~ipad_1536x2048.png" width="1536" height="2048"/>
-        <splash src="res/ios/splash/Default-Portrait@2x~ipad_1536x2008.png" width="1536" height="2008"/>
-        <splash src="res/ios/splash/Default-568h@2x~iphone_640x1136.png" width="640" height="1136"/>
-        <splash src="res/ios/splash/Default-750@2x~iphone6-portrait_750x1334.png" width="750" height="1334"/>
-        <splash src="res/ios/splash/Default-1242@3x~iphone6s-portrait_1242x2208.png" width="1242" height="2208"/>
+        <icon src="res/cuidomiciudad/ios/icons/Icon-Small-50.png" width="50" height="50" />
+        <icon src="res/cuidomiciudad/ios/icons/Icon-Small-50@2x.png" width="100" height="100" />
+
+        <splash src="res/cuidomiciudad/ios/launch/launch-ipad.png" width="768" height="1024"/>
+        <splash src="res/cuidomiciudad/ios/launch/launch-ipad@2x.png" width="1536" height="2048"/>
+        <splash src="res/cuidomiciudad/ios/launch/launch-iphone1234.png" width="320" height="480"/>
+        <splash src="res/cuidomiciudad/ios/launch/launch-iphone1234@2x.png" width="640" height="960"/>
+        <splash src="res/cuidomiciudad/ios/launch/launch-iphone5.png" width="640" height="1136"/>
+        <splash src="res/cuidomiciudad/ios/launch/launch-iphone67.png" width="750" height="1334"/>
+        <splash src="res/cuidomiciudad/ios/launch/launch-iphone67plus.png" width="1242" height="2208"/>
+
     </platform>
 
     <engine name="ios" spec="~4.1.1" />
