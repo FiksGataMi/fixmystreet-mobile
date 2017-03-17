@@ -31,6 +31,8 @@
     <access origin="https://www.cuidomiciudad.com" />
     <access origin="https://www.cuidomiciudad.do" />
 
+    <allow-intent href="mailto:*" />
+
     <preference name="android-minSdkVersion" value="16" />
     <preference name="orientation" value="portrait" />
     <preference name="StatusBarOverlaysWebView" value="false" />
