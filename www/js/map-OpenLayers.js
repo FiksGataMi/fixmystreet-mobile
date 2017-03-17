@@ -65,12 +65,12 @@ function fixmystreet_onload() {
             backgroundGraphicZIndex: 10
         })
     });
-    var location_img = 'images/pin@x2.png';
+    var location_img = 'cobrands/cuidomiciudad/images/fms-pin@2x.png';
     var location_bg_img = 'images/pin_shadow@x2.png';
     if ( typeof device !== 'undefined' && (
         (device.platform == 'Android' && parseInt(device.version, 10) > 2) ||
         (device.platform !== 'Android') ) ) {
-        location_img = 'images/pin.svg';
+        location_img = 'cobrands/cuidomiciudad/images/fms-pin.svg';
         location_bg_img = 'images/pin_shadow.svg';
     }
 
