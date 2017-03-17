@@ -92,6 +92,10 @@ div[data-role='header'] .ui-icon-fms-account {
         background-position: center top;
         text-indent: -9999999px;
     }
+
+    a, a:visited {
+        color: $color-cmc-yellow;
+    }
 }
 
 #dismiss {
