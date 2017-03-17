@@ -116,6 +116,6 @@
         <variable name="IOS_DISPLAY_NAME" value="CuidoMiDN" />
     </plugin>
     <plugin name="cordova-plugin-ios-app-language" spec="./cordova-plugin-ios-app-language">
-        <variable name="IOS_LOCALIZATION" value="es_DO" />
+        <variable name="IOS_LOCALIZATION" value="Spanish" />
     </plugin>
 </widget>

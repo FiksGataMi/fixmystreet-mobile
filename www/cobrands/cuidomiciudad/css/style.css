@@ -77,3 +77,31 @@ div[data-role='header'] .ui-icon-fms-account {
     background-image: url(../../../images/user-white@x2.png);
   }
 }
+/* line 80, style.scss */
+#helpContent {
+  background-color: #005cb9;
+  text-shadow: none;
+  color: white;
+  padding: 1em;
+}
+/* line 86, style.scss */
+#helpContent h1 {
+  text-align: center;
+  background-image: url("../images/logo-footer.png");
+  background-size: contain;
+  height: 2em;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-indent: -9999999px;
+}
+
+/* line 97, style.scss */
+#dismiss {
+  color: white;
+  text-shadow: 0px 1px 0px silver;
+}
+
+/* line 103, style.scss */
+#locating p {
+  text-shadow: none;
+}

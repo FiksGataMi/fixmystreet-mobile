@@ -76,3 +76,30 @@ div[data-role='header'] .ui-icon-fms-account {
         background-image: url(../../../images/user-white@x2.png);
     }
 }
+
+#helpContent {
+    background-color: $color-cmc-blue;
+    text-shadow: none;
+    color: white;
+    padding: 1em;
+
+    h1 {
+        text-align: center;
+        background-image: url('../images/logo-footer.png');
+        background-size: contain;
+        height: 2em;
+        background-repeat: no-repeat;
+        background-position: center top;
+        text-indent: -9999999px;
+    }
+}
+
+#dismiss {
+    color: white;
+    text-shadow: 0px 1px 0px silver;
+}
+
+
+#locating p {
+    text-shadow: none;
+}
