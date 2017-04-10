@@ -1,0 +1,8 @@
+{
+    "android": {
+        "release": {
+            "keystore": "/Users/davea/Code/keys/android/android_keystore",
+            "alias": "cuidomiciudad"
+        }
+    }
+}
