@@ -133,18 +133,32 @@ div[data-role='header'] .ui-icon-fms-account {
   background-position: center top;
   text-indent: -9999999px;
 }
-/* line 145, style.scss */
+/* line 144, style.scss */
+#helpContent h2 {
+  text-align: center;
+}
+/* line 148, style.scss */
+#helpContent img {
+  width: 200px;
+  display: block;
+  margin: 0.5em auto;
+}
+/* line 153, style.scss */
+#helpContent img.last-image {
+  margin-bottom: 3em;
+}
+/* line 158, style.scss */
 #helpContent a, #helpContent a:visited {
   color: #eed11c;
 }
 
-/* line 150, style.scss */
+/* line 163, style.scss */
 #dismiss {
   color: white;
   text-shadow: 0px 1px 0px silver;
 }
 
-/* line 156, style.scss */
+/* line 169, style.scss */
 #locating p {
   text-shadow: none;
 }

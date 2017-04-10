@@ -141,6 +141,19 @@ div[data-role='header'] .ui-icon-fms-account {
         background-position: center top;
         text-indent: -9999999px;
     }
+    h2 {
+        text-align: center;
+    }
+
+    img {
+        width: 200px;
+        display: block;
+        margin: 0.5em auto;
+
+        &.last-image {
+            margin-bottom: 3em;
+        }
+    }
 
     a, a:visited {
         color: $color-cmc-yellow;
