@@ -43,18 +43,19 @@
     <preference name="deployment-target" value="6.0" />
 
     <platform name="android">
-        <icon density="ldpi" src="res/android/drawable-ldpi/icon.png" />
-        <icon density="mdpi" src="res/android/drawable-mdpi/icon.png" />
-        <icon density="hdpi" src="res/android/drawable-hdpi/icon.png" />
-        <icon density="xhdpi" src="res/android/drawable-xhdpi/icon.png" />
-        <icon density="xxhdpi" src="res/android/drawable-xxhdpi/icon.png" />
-        <icon density="xxxhdpi" src="res/android/drawable-xxxhdpi/icon.png" />
-        <splash density="ldpi" src="res/android/drawable-ldpi/screen.9.png" />
-        <splash density="mdpi" src="res/android/drawable-mdpi/screen.9.png" />
-        <splash density="hdpi" src="res/android/drawable-hdpi/screen.9.png" />
-        <splash density="xhdpi" src="res/android/drawable-xhdpi/screen.9.png" />
-        <splash density="xxhdpi" src="res/android/drawable-xxhdpi/screen.9.png" />
-        <splash density="xxxhdpi" src="res/android/drawable-xxxhdpi/screen.9.png" />
+        <icon density="ldpi" src="res/cuidomiciudad/android/icons/ic_ldpi.png" />
+        <icon density="mdpi" src="res/cuidomiciudad/android/icons/ic_mdpi.png" />
+        <icon density="hdpi" src="res/cuidomiciudad/android/icons/ic_hdpi.png" />
+        <icon density="xhdpi" src="res/cuidomiciudad/android/icons/ic_xhdpi.png" />
+        <icon density="xxhdpi" src="res/cuidomiciudad/android/icons/ic_xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/cuidomiciudad/android/icons/ic_xxxhdpi.png" />
+
+        <splash density="ldpi" src="res/cuidomiciudad/android/drawable-ldpi/screen.9.png" />
+        <splash density="mdpi" src="res/cuidomiciudad/android/drawable-mdpi/screen.9.png" />
+        <splash density="hdpi" src="res/cuidomiciudad/android/drawable-hdpi/screen.9.png" />
+        <splash density="xhdpi" src="res/cuidomiciudad/android/drawable-xhdpi/screen.9.png" />
+        <splash density="xxhdpi" src="res/cuidomiciudad/android/drawable-xxhdpi/screen.9.png" />
+        <splash density="xxxhdpi" src="res/cuidomiciudad/android/drawable-xxxhdpi/screen.9.png" />
     </platform>
 
     <platform name="ios">
