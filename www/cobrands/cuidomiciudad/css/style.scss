@@ -49,6 +49,55 @@ body.ios7 {
     border-radius: 3px;
 }
 
+
+#around-page .ui-header {
+    // We want the CMC logo in the header instead of plain text
+    .ui-title {
+        text-indent: -99999px;
+        margin: 0;
+        padding-top: 0.6em;
+        padding-bottom: 0.6em;
+        background-image: url('../images/logo-footer.png');
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+    }
+
+    // background image is sized according to screen size,
+    // so it's centered on the screen and the baseline matches
+    // the buttons
+
+    // up to iPhone 6 size
+    @media (max-width: 374px) {
+        .ui-title {
+            background-position: 55% 18%;
+        }
+        // On narrow screens (e.g. iPhone 5S), make the button padding a little
+        // tighter to make room for the logo
+        .ui-btn-inner {
+            padding-left: 0.35em;
+            padding-right: 0.35em;
+        }
+        .ui-btn-icon-left .ui-btn-inner {
+            padding-left: 30px;
+        }
+    }
+
+    // up to & including iPhone 6+ size
+    @media (max-width: 414px) {
+        .ui-title {
+            background-position: 55% top;
+        }
+    }
+
+    // bigger than iPhone 6, e.g. high res android or iPad
+    @media (min-width: 415px) {
+        .ui-title {
+            background-position: center top;
+            background-size: auto 75%;
+        }
+    }
+}
+
 #load-screen .radar,
 #locating .radar {
     background-image: url('../images/radar-cuidomiciudad.png');
