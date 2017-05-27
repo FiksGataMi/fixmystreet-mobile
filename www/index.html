@@ -43,8 +43,12 @@
         <script type="text/javascript" src="jslib/jquery.mobile-1.3.1.min.js"></script>
         <script type="text/javascript" src="jslib/moment-2.0.0.min.js"></script>
         <script type="text/javascript">
-            if (CONFIG && CONFIG.LANGUAGE == 'sv') {
-                add_script('jslib/moment-2.0.0.sv.min.js');
+            if (CONFIG) {
+                if (CONFIG.LANGUAGE == 'sv') {
+                    add_script('jslib/moment-2.0.0.sv.min.js');
+                } else if (CONFIG.LANGUAGE == 'no') {
+                    add_script('jslib/moment-2.0.0.no.min.js');
+                }
             }
         </script>
 
