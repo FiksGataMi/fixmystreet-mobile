@@ -318,7 +318,7 @@ msgstr "Fjern bilde"
 
 #: templates/submit_confirm.html:37 templates/submit_password.html:15
 msgid "Report"
-msgstr "Rapport"
+msgstr "Rapporter"
 
 #: templates/sent.html:3
 msgid "Report Created"
