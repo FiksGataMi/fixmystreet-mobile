@@ -161,7 +161,7 @@ msgstr "Finn posisjon (valgfritt)"
 
 #: templates/strings.js:30
 msgid "Location error"
-msgstr ""
+msgstr "Posisjonsfeil"
 
 #: templates/login.html:3 templates/login.html:30
 msgid "Login"
@@ -198,7 +198,7 @@ msgstr ""
 
 #: templates/submit_name.html:9
 msgid "No problem - we don't like faffing with passwords either."
-msgstr ""
+msgstr "Ikke noe problem - vi liker heller ikke å styre med passord."
 
 #: templates/offline.html:3 templates/save_offline.html:2
 msgid "Offline"
@@ -209,6 +209,8 @@ msgid ""
 "Oh dear - we can't detect an internet connection. However you can still edit "
 "the report now and send it later."
 msgstr ""
+"Vi kan ikke oppdage en internettforbindelse. Men du kan fortsatt redigere "
+"rapporten nå og sende den senere."
 
 #: templates/offline.html:27
 msgid ""
@@ -216,6 +218,9 @@ msgid ""
 "start a report now and complete it later, by going to 'drafts' when you're "
 "back online."
 msgstr ""
+"Vi kan ikke oppdage en internettforbindelse. Men du kan fortsatt starte en "
+"rapport nå og fullføre den senere, ved å gå til \"utkast\" når du er tilbake "
+"på nettet."
 
 #: templates/submit_confirm.html:29 templates/submit_name.html:26
 msgid "Optionally enter your phone number"
@@ -238,6 +243,8 @@ msgid ""
 "Please confirm your name, if you want it to be public and optionally your "
 "phone number."
 msgstr ""
+"Vennligst bekreft navnet ditt, hvis du vil at det skal være offentlig og "
+"eventuelt ditt telefonnummer."
 
 #: templates/strings.js:36
 msgid "Please enter a location"
@@ -276,6 +283,9 @@ msgid ""
 "Please enter your full name, councils need this information - if you do not "
 "wish your name to be shown on the site, untick the box below"
 msgstr ""
+"Vennligst skriv inn ditt fulle navn, administrasjonene trenger denne "
+"informasjonen - hvis du ikke ønsker at navnet ditt skal vises på nettstedet, "
+"fjerner du avkryssingen under"
 
 #: templates/strings.js:8 templates/submit_confirm.html:26
 #: templates/submit_name.html:23
@@ -292,11 +302,11 @@ msgstr "Vennligst legg inn detljer for problemet."
 
 #: templates/submit_name.html:11
 msgid "Please give us some basic details, and you're nearly done."
-msgstr ""
+msgstr "Gi oss noen grunnleggende detaljer, og du er nesten ferdig."
 
 #: templates/strings.js:39
 msgid "Please search for a street name and area, or postcode."
-msgstr ""
+msgstr "Vennligst søk etter et gate navn og område eller postnummer."
 
 #: templates/details.html:9 templates/offline.html:41
 msgid "Provide a title"
@@ -316,7 +326,7 @@ msgstr "Rapport laget"
 
 #: templates/around.html:47
 msgid "Reposition Report Here"
-msgstr ""
+msgstr "Flytt rapport hit"
 
 #: templates/strings.js:53
 msgid "Save for Later"
@@ -368,6 +378,8 @@ msgid ""
 "Sorry, but we weren't able to establish your location accurately enough to "
 "show you a map. Please enter a location in the search box instead"
 msgstr ""
+"Beklager, men vi kunne ikke finne sted nøyaktig nok til å vise deg et kart. "
+"Vennligst skriv inn et sted i søkeboksen i stedet"
 
 #: templates/sent.html:20
 msgid "Start new report"
@@ -383,38 +395,46 @@ msgstr "Ta nytt bilde"
 
 #: templates/around.html:31
 msgid "Test version. Reports will not be sent to the council."
-msgstr ""
+msgstr "Testversjon. Rapporter vil ikke bli sendt til administrasjonen."
 
 #: templates/sent.html:13
 msgid "Thanks. Your report will be sent to the authorities immediately."
-msgstr ""
+msgstr "Takk. Din rapport vil bli sendt til myndighetene umiddelbart."
 
 #: templates/save_offline.html:5
 msgid "There is no internet connection"
-msgstr ""
+msgstr "Det er ingen Internett-tilkobling"
 
 #: templates/save_offline.html:8
 msgid ""
 "There isn't an internet connection, do you want to save the current report "
 "for later?"
 msgstr ""
+"Det er ikke en Internett-tilkobling, vil du lagre gjeldende rapport for "
+"senere?"
 
 #: templates/strings.js:38
 msgid ""
 "There was a problem checking if we have all the details we need. Please try "
 "again later."
 msgstr ""
+"Det var et problem å sjekke om vi har alle detaljene vi trenger. Prøv igjen "
+"senere."
 
 #: templates/strings.js:37
 msgid ""
 "There was a problem checking we cover this location. Please try again later."
 msgstr ""
+"Det oppsto et problem med å sjekke at vi dekker dette stedet. Prøv igjen "
+"senere."
 
 #: templates/strings.js:27
 msgid ""
 "There was a problem logging you in. Please check your email and password and "
 "that you have confirmed your password."
 msgstr ""
+"Det oppsto et problem med å logge deg på. Vennligst sjekk e-postadressen og "
+"passordet ditt og at du har bekreftet passordet ditt."
 
 #: templates/strings.js:25
 msgid "There was a problem logging you in. Please try again later."
@@ -427,7 +447,7 @@ msgstr "Det oppstod et problem under utloggingen. Vennligst prøv igjen senere."
 
 #: templates/strings.js:31
 msgid "There was a problem looking up your location."
-msgstr ""
+msgstr "Det oppstod et problem å slå opp posisjonen din."
 
 #: templates/strings.js:34
 msgid "There was a problem submitting your report. Please try again later."
@@ -442,7 +462,7 @@ msgstr ""
 
 #: templates/strings.js:48
 msgid "There was a problem taking your photo."
-msgstr ""
+msgstr "Det oppstod et problem å ta bildet ditt."
 
 #: templates/strings.js:51
 msgid "There was a problem uploading your report."
@@ -455,18 +475,26 @@ msgid ""
 "the email screen and selecting the set password option. Passwords are not "
 "activated until the link in the confirmation email is clicked."
 msgstr ""
+"Det oppstod et problem med kombinasjonen av e-post / passord. Hvis du har "
+"glemt passordet ditt, eller ikke har et, kan du angi et ved å returnere til "
+"e-postskjermen og velge innstilt passord. Passordet blir ikke aktivert før "
+"du har klikket på lenken i bekreftelsesmeldingen."
 
 #: templates/reports.html:9
 msgid ""
 "These are your draft, unsent reports. To finish and send them, open a report "
 "when online."
 msgstr ""
+"Dette er dine utkast, usendte rapporter. For å fullføre og sende dem, åpne "
+"en rapport når du er tilkoblet internett."
 
 #: templates/submit_email.html:13
 msgid ""
 "This app needs to send you a confirmation email before we can send your "
 "report to the council."
 msgstr ""
+"Denne appen må sende deg en bekreftelses-epost før vi kan sende rapporten "
+"til administrasjonen."
 
 #: templates/offline.html:33
 msgid "This report has a position."
@@ -500,13 +528,15 @@ msgstr "Å laste opp bilder kan ta litt tid"
 
 #: templates/sent.html:15
 msgid "View it on the site"
-msgstr ""
+msgstr "Se det på nettstedet"
 
 #: templates/sent.html:10
 msgid ""
 "We've sent you a confirmation email which may take a few minutes to arrive. "
 "Once it arrives click the link in the email to confirm your report."
 msgstr ""
+"Vi har sendt deg en bekreftelses-epost som kan ta noen minutter å ankomme. "
+"Når det kommer, klikk lenken i e-posten for å bekrefte rapporten."
 
 #: templates/login.html:9
 msgid "You are signed in as %s"
