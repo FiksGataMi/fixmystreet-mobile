@@ -73,6 +73,13 @@
 
         <script type="text/javascript" src="js/locate.js"></script>
         <script type="text/javascript" src="js/strings.js"></script>
+
+        <script type="text/javascript">
+            if (CONFIG && CONFIG.LANGUAGE) {
+                add_script("templates/" + CONFIG.LANGUAGE + "/strings.js");
+            }
+        </script>
+
         <script type="text/javascript" src="js/files.js"></script>
 
         <script type="text/javascript" src="js/views/fms.js"></script>
