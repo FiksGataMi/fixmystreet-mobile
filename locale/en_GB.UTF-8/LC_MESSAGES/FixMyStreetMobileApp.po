@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: struan@mysociety.org\n"
-"POT-Creation-Date: 2017-05-27 23:22+0200\n"
+"POT-Creation-Date: 2017-05-27 23:43+0200\n"
 "PO-Revision-Date: 2013-09-18 18:01+0100\n"
 "Last-Translator: Struan <struan@mysociety.org>\n"
 "Language-Team: LANGUAGE <team@fixmystreet.com>\n"
@@ -321,6 +321,10 @@ msgstr ""
 
 #: templates/existing.html:32
 msgid "Save for later"
+msgstr ""
+
+#: templates/existing.html:13
+msgid "Saved in the %s category"
 msgstr ""
 
 #: templates/strings.js:29

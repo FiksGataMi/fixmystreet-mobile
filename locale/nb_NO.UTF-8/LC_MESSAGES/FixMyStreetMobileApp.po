@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: struan@mysociety.org\n"
-"POT-Creation-Date: 2017-05-27 23:22+0200\n"
+"POT-Creation-Date: 2017-05-27 23:43+0200\n"
 "PO-Revision-Date: 2017-05-27 18:11+0200\n"
 "Last-Translator: Marius Halden <marius.h@lden.org>\n"
 "Language-Team: NUUG fiksgatami <fiksgatami@rt.nuug.no>\n"
@@ -342,6 +342,10 @@ msgstr "Lagre til senere"
 #: templates/existing.html:32
 msgid "Save for later"
 msgstr "Lagre til senere"
+
+#: templates/existing.html:13
+msgid "Saved in the %s category"
+msgstr "Lagret i kategorien %s"
 
 #: templates/strings.js:29
 msgid "Search for a place or postcode"
