@@ -136,15 +136,15 @@ msgstr "Hjem"
 
 #: templates/submit_email.html:22
 msgid "I don't want to set a password"
-msgstr "Jeg vil ikke sette et passord"
+msgstr "Jeg vil ikke ha et passord"
 
 #: templates/submit_email.html:23
 msgid "I'd like to set a password"
-msgstr "Jeg vil sette et passord"
+msgstr "Jeg vil ha et passord"
 
 #: templates/submit_email.html:24
 msgid "I've already got one - login"
-msgstr "Jeg har en allerede - logg inn"
+msgstr "Jeg har et allerede - logg inn"
 
 #: templates/reports.html:6
 msgid ""
